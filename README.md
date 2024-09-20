@@ -7,7 +7,7 @@ Step 1: Fetching the files required to run the prototype using command “ git c
 Step 2: Get inside the “IBY-s-Chatmaster” folder and there you see 2 folders inside it
 1)	Backend
 2)	Chatmaster
-3)	
+
 Step 3: First get inside backend folder and run command “ npm install “. This will install all the dependencies required to run backend.
 
 Step 4: Then get inside chatmaster folder and run command “ npm install “. This will install all the dependencies required to run frontend.

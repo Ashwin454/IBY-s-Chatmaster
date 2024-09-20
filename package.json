@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1"
+  },
+  "dependencies": {
+    "react-notification": "^6.8.5",
+    "react-notification-badge": "^1.5.1"
+  }
+}

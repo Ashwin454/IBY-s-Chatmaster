@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 exports.connectDB = async () => {
   try {
-    const connection = await mongoose.connect("mongodb://127.0.0.1:27017/IBY?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.2", {
+    const connection = await mongoose.connect("mongodb+srv://ashwinaj4545:Ashwin4545%23@cluster0.fnnoz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     });
     console.log(`MongoDB connected to host: ${connection.connection.host}`);
   } catch (err) {

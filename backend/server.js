@@ -10,7 +10,7 @@ const router = require("./routes/userRoutes");
 const chatrouter = require("./routes/chatRoutes.js");
 const messagerouter = require("./routes/messageRoutes.js");
 const bodyParser = require('body-parser');
-
+const path=require('path');
 const corsOptions = {
   origin: `http://${process.env.FRONTEND_HOST}`,
   credentials: true,

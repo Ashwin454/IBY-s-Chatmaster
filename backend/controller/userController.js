@@ -15,7 +15,7 @@ const upload = require("../middleware/multer");
 
 exports.registerUser=async(req, res, next)=>{
     try{
-        const {name, email, phone, password, confirmPass}=req.body;
+        const {name, email, photo, password, confirmPass}=req.body;
         if(!name || !email  || !password || !confirmPass){
             return res.status(400).json({
                 message:"Give complete Data"
@@ -39,7 +39,6 @@ exports.registerUser=async(req, res, next)=>{
         const user1=await user.create({
             name,
             email,
-            phone,
             password:hashedPass,
             pic:req.imgURL
         });
